@@ -16,7 +16,7 @@ while True:
     elif user_action.startswith("show"):
         todos = get_todos()
         for index, item in enumerate(todos):
-            row = f"{index + 1}-{item.strip()}"`
+            row = f"{index + 1}-{item.strip()}"
             print(row)
 
     elif user_action.startswith("edit"):
